@@ -1,38 +1,24 @@
 .App {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.meal-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Footer{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.learn-more{
+  background-color: rgb(250, 158, 13);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 15px 35px;
+  margin: 20px;
 }

@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Food List
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Only pure css was used throught out
+
+svgs were used as react component
 
 ## Available Scripts
 
